@@ -4,11 +4,11 @@
 
 JPing is a tool for see ping in ms between your and a remote server
 
-# Install
+## Install
 ```sh
 npm install jping -g
 ```
-# Examples
+### Examples
 Simple usage
 ```sh
 jping google.com
@@ -25,4 +25,15 @@ Help command
 ```sh
 jping -h
 jping --help
+```
+
+### Example outupt
+```
+JPing: Pinging to google.com (ip = 172.217.16.238, port = 80)
+JPing: Reply from google.com (port: 80), time = 43ms, average = 43.00ms
+JPing: Reply from google.com (port: 80), time = 7ms, average = 25.00ms
+JPing: Reply from google.com (port: 80), time = 5ms, average = 18.33ms
+JPing: Reply from google.com (port: 80), time = 4ms, average = 14.75ms
+JPing: Reply from google.com (port: 80), time = 5ms, average = 12.80ms
+JPing: Ping average = 12.80ms
 ```

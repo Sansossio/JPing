@@ -1,6 +1,6 @@
 {
   "name": "jping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get connection time to an ip or host",
   "main": "index.js",
   "scripts": {},
