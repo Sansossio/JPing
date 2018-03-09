@@ -21,7 +21,7 @@ Logs in loop
 ```sh
 jping google.com -i
 ```
-Help command
+## Help command
 ```sh
 jping -h
 jping --help
