@@ -1,0 +1,32 @@
+{
+  "name": "jping",
+  "version": "1.0.0",
+  "description": "Get connection time to an ip or host",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "jping": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansossio/JPing.git"
+  },
+  "keywords": [
+    "ping",
+    "tcp",
+    "connect",
+    "ms"
+  ],
+  "author": "Julio Sansossio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sansossio/JPing/issues"
+  },
+  "homepage": "https://github.com/Sansossio/JPing#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
